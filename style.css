@@ -95,12 +95,33 @@ header {
     position: relative;
 }
 
-.top_back_img{
-    background-image: url(img/toss-im-web-intro-still-start.jpeg);
-    background-size: cover;
-    background-position: center bottom;
+.top_back_img {
+    position: relative;
+}
+
+.art_1 > div {
+    position: absolute;
+    display: flex;
+    top: 0%;
     width: 100%;
-    height: 100%;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    font-size: 43px;
+    font-family: 'NanumSquareBold';
+    line-height: 2em;
+    margin: 170px 0 0 0;
+
+}
+
+.art_1 > div > h1 {
+    margin-bottom: 50px;
+}
+
+.top_back_img > video {
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
 }
 
 .top_back_img_gradient {
@@ -109,6 +130,50 @@ header {
     width: 100%;
     height: 30%;
     top: 59px;
+}
+
+.app_btn {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.app_btn ul li img {
+    display: flex;
+    width: 25px;
+    margin-right: 8px;
+}
+
+.app_btn ul {
+    display: flex;
+    justify-content: center;
+}
+
+
+.app_btn ul li {
+    display: flex;
+    float: left;
+    background-color: rgba(0, 12, 30, 0.8);
+    font-size: 16px;
+    font-family: 'NanumSquareBold';
+    width: 150px;
+    height: 62px;
+    border-radius: 8px;
+}
+
+.app_btn ul li:hover {
+    background-color: rgba(0, 12, 30, 0.697);
+    transition: 0.5s;
+}
+
+.app_btn ul li:nth-child(1) {
+    margin-right: 4px;
+}
+
+.app_btn ul li a {
+    color: white;
+    height: auto;
+    text-decoration: none;
 }
 
 .art_2 {
