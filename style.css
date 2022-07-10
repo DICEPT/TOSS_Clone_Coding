@@ -1,0 +1,125 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    width: 100vw;
+    height: 59px;
+    justify-content: center;
+    /* border-bottom: 1px solid rgb(209, 209, 209); */
+    position: fixed;
+    z-index: 10;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    width: 1140px;
+}
+
+.toss_nav {
+    display: flex;
+    width: 1048px;
+    height: 100%;
+    margin: auto;
+}
+
+.toss_menu {
+    display: flex;
+    margin-left: auto;
+    font-family: 'NanumSquare';
+    font-size: 14px;
+}
+
+.toss_menu > ul {
+    display: flex;
+    list-style: none;
+}
+
+.toss_menu > li, li {
+    display: flex;
+    padding: 0 8px 0 8px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.toss_menu a {
+    text-decoration: none;
+    color: rgb(89, 89, 117);
+    padding: 10px 12px 10px 12px;
+}
+
+.toss_menu a:hover {
+    background-color: rgb(243, 243, 243);
+    border-radius: 5px;
+}
+
+.toss_lang {
+    display: flex;
+    margin: 0 0 0 50px;
+}
+
+.toss_lang > span {
+    content: '';
+    border-left: 2px solid rgb(212, 212, 212);
+    display: flex;
+    height: 13px;
+    margin: 22px 0 0 0;
+}
+
+.toss_menu ul > li:nth-child(3) a {
+    color: rgb(196, 196, 196);
+}
+
+
+.toss_logo {
+    display: flex;
+    align-items: center;
+}
+
+.toss_logo img {
+    height: 20px;
+}
+
+.art_1 {
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.top_back_img{
+    background-image: url(img/toss-im-web-intro-still-start.jpeg);
+    background-size: cover;
+    background-position: center bottom;
+    width: 100%;
+    height: 100%;
+}
+
+.top_back_img_gradient {
+    position: absolute;
+    background: linear-gradient(white 0%, white 59%, rgba(0, 0, 0, 0) 100%);
+    width: 100%;
+    height: 30%;
+    top: 59px;
+}
+
+.art_2 {
+    background-color: rgb(255, 0, 174);
+    width: 100vw;
+    height: 100vh;
+}
+
+.art_3 {
+    background-color: rgb(255, 242, 0);
+    width: 100vw;
+    height: 100vh;
+}
+
