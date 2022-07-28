@@ -24,6 +24,7 @@ header {
     display: flex;
     align-items: center;
     width: calc(100vw - 50px);
+    height: 100%;
     position: relative;
 }
 
@@ -217,13 +218,14 @@ header {
     justify-content: center;
     display: flex;
     width: 100vw;
-    height: 100%;
-    padding: 250px 0 190px 0;
+    height: 1200px;
+    padding: 240px 0 190px 0;
 }
 
 .info_box {
     display: flex;
     width: 1048px;
+    height: 100%;
     margin: auto;
 }
 
@@ -249,8 +251,8 @@ header {
 }
 
 .info_img_box {
-    background-color: rgba(127, 255, 212, 0.441);
     width: 100%;
+    height: 100%;
     position: relative;
 }
 
@@ -309,4 +311,65 @@ header {
 
 .info_text_2 > h1 {
     line-height: 35px;
+}
+
+.art_4 {
+    justify-content: center;
+    display: flex;
+    width: 100vw;
+    height: 100%;
+    padding: 250px 0 190px 0;
+    background-color: rgb(250, 250, 250);
+}
+
+.info_rem_box {
+    margin-top: 30%;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.rem_text {
+    margin-left: 4%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    line-height: 53px;
+    width: 45%;
+    height: 350px;
+}
+
+.rem_text > h1:nth-child(1) {
+    display: flex;
+    font-size: 20px;
+    font-family: 'NanumSquare';
+    color: rgb(49, 130, 246);
+}
+
+
+.rem_text > h1:nth-child(2) {
+    display: flex;
+    font-size: 40px;
+    font-family: 'NanumSquareBold';
+}
+
+
+.rem_text > h1:nth-child(3) {
+    display: flex;
+    font-size: 22px;
+    font-family: 'NanumSquare';
+    line-height: 35px;
+    margin-top: 10px;
+    color: rgb(107, 118, 132);
+}
+
+.rem_img_1 {
+    display: flex;
+    float: right;
+    right: 0%;
+    width: 45%;
+    height: 390px;
+    background-image: url('img/section1_2_01.png');
+    background-size: cover;
 }
